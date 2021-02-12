@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Yusei Magic', sans-serif;
+  background-color: steelblue;
+  color: aliceblue;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 50px 10px 50px 10px;
+  z-index: 2;
+}
+
+.image {
+  z-index: 0;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  width: 1000px;
+}
+
+.circle {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  display: inline-block;
+  margin: 0 20px 0 0;
+  z-index: 2;
+}
+
+.circles {
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+}
+
+.activecircle {
+  background-color: rgb(9, 176, 218);
+}
+
+.circle1 {
+  background-color: rgb(238, 255, 0);
+}
+
+.circle2 {
+  background-color: rgb(180, 51, 255);
+}
+
+.circle3 {
+  background-color: rgb(15, 255, 175);
+}
+
+.circle4 {
+  background-color: rgb(255, 171, 14);
+}
+
+@media (min-width: 960px) and (max-width: 1280px) {
+  .image {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  img {
+    width: 900px;
+  }
+
+  .circles {
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    transform: translate(-30%, -50%);
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .image {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  img {
+    width: 400px;
+  }
+
+  .circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    display: inline-block;
+    margin: 0 20px 0 0;
+  }
+
+  .circles {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+  }
+}
