@@ -50,22 +50,27 @@ img {
 
 .activecircle {
   background-color: rgb(9, 176, 218);
+  cursor: pointer;
 }
 
 .circle1 {
   background-color: rgb(238, 255, 0);
+  cursor: pointer;
 }
 
 .circle2 {
   background-color: rgb(180, 51, 255);
+  cursor: pointer;
 }
 
 .circle3 {
   background-color: rgb(15, 255, 175);
+  cursor: pointer;
 }
 
 .circle4 {
   background-color: rgb(255, 171, 14);
+  cursor: pointer;
 }
 
 @media (min-width: 960px) and (max-width: 1280px) {
